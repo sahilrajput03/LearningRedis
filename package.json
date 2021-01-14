@@ -1,0 +1,14 @@
+{
+	"name": "redisTesting",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"devDependencies": {},
+	"scripts": {
+		"start": "nodemon -q index.js",
+		"start2": "nodemon --exec babel-node index.js"
+	},
+	"dependencies": {
+		"redis": "^3.0.2"
+	}
+}
