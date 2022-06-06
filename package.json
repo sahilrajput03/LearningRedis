@@ -3,12 +3,12 @@
 	"version": "1.0.0",
 	"main": "index.js",
 	"license": "MIT",
-	"devDependencies": {},
 	"scripts": {
-		"start": "nodemon -q index.js",
-		"start2": "nodemon --exec babel-node index.js"
+		"test": "fr __tests__/test1.test.js",
+		"test:watch": "fr -w __tests__/test1.test.js"
 	},
 	"dependencies": {
-		"redis": "^3.0.2"
+		"expect": "^28.1.0",
+		"redis": "^4.1.0"
 	}
 }
