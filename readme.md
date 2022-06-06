@@ -2,6 +2,8 @@
 
 Src: https://github.com/redis/node-redis
 
+Refer gist @ https://gist.github.com/sahilrajput03/c2fda8698f8a22dea61f772e7d54eff9
+
 #### Wanna get a list, the last parameter is the callback where you get the list. The signature of callback is
 
 ```js
@@ -13,5 +15,3 @@ client.lpush('key', mywords, redis.print)
 
 client.lpush('key', mywords, redis.print) // prints the total no. of records after saving mywords array to the list though.
 ```
-
-Refer gist @ https://gist.github.com/sahilrajput03/c2fda8698f8a22dea61f772e7d54eff9
